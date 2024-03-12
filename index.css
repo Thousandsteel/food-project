@@ -24,9 +24,7 @@ body {
   margin-left: 50px;
 }
 nav {
-  
   padding-top: 10px;
-  
 }
 header button {
   margin-right: 10%;
@@ -315,47 +313,48 @@ ul li {
 }
 
 @media (max-width: 600px) {
-
   .icon1 {
     margin-left: 10px;
   }
-  nav{
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  
+  nav {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
   }
-  .food-menu{
-   padding-top: 110%;
-
+  .food-menu {
+    padding-top: 110%;
   }
-  .img3{
+  .img3 {
     display: flex;
     flex-direction: column;
     padding: 30%;
- 
   }
-  .plate1{
+  .plate1 {
     width: 100%;
   }
-  .plate1 img{
+  .plate1 img {
     width: 100px;
-   height: 100px;
+    height: 100px;
   }
-  .plate2 img{
-   width: 100px;
-   height: 100px;
+  .plate2 img {
+    width: 100px;
+    height: 100px;
+  }
+  .plate2 {
+    width: 100%;
+  }
+  .plate3 {
+    width: 100%;
+  }
+  .plate3 img {
+    width: 100px;
+    height: 100px;
+  }
+  .contact-son {
+  width: 100%;
+  position: relative;
+  right: 25%;
+  top: 7%;
+  }
 
-  }
-  .plate2{
-   
-    width: 100%;
-  }
-  .plate3{
-    width: 100%;
-  }
-  .plate3 img{
-    width: 100px;
-   height: 100px;
-  }
 }
